@@ -20,11 +20,11 @@ void solve(){
 
     for(auto it:six)ans.push_back(it);
     for(auto it:two)ans.push_back(it);
-    for(auto it:neither)ans.push_back(it);  // fixed: neither before three
-    for(auto it:three)ans.push_back(it);    // fixed: three at end
+    for(auto it:neither)ans.push_back(it);  
+    for(auto it:three)ans.push_back(it);   
 
     for(auto it:ans){
-        cout<<it<<" ";  // fixed: space instead of endl
+        cout<<it<<" "; 
     }
     cout<<"\n";
 }
