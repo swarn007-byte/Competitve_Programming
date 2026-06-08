@@ -38,7 +38,7 @@ int main()
                 state = -1;
             }
         }
-        cout<<c+1<<endl;
+        cout<<c+1<<"\n";
     }
     return 0;     
  }        
